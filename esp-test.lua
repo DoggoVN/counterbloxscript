@@ -144,7 +144,7 @@ getgenv().ExunysDeveloperESP = {
 	Settings = {
 		Enabled = true,
 		PartsOnly = false,
-		TeamCheck = false,
+		TeamCheck = true,
 		AliveCheck = true,
 		LoadConfigOnLaunch = true,
 		EnableTeamColors = true,
@@ -169,7 +169,7 @@ getgenv().ExunysDeveloperESP = {
 			DisplayDistance = true,
 			DisplayHealth = true,
 			DisplayName = true,
-			DisplayDisplayName = true,
+			DisplayDisplayName = false,
 			DisplayTool = false
 		},
 
@@ -241,13 +241,13 @@ getgenv().ExunysDeveloperESP = {
 		},
 
 		Crosshair = {
-			Enabled = false,
+			Enabled = true,
 			RainbowColor = false,
 			RainbowOutlineColor = false,
 			TStyled = false,
 			Position = 1, -- 1 = Mouse; 2 = Center
 
-			Size = 12,
+			Size = 9,
 			GapSize = 6,
 			Rotation = 0,
 
